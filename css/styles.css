@@ -1,0 +1,26 @@
+/* : followed by root */
+:root {
+  /* front size */
+  --fs-base: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 20px;
+  --fs-xxl: 25px;
+  --fs-xxxl: 35px;
+  /* front weight */
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 800;
+  /* bg-color */
+  --bg-primary: #fff8f3;
+  --bg-secondary: #fd6e0a;
+  /* text-color */
+  --text-color-primary: #757575;
+  --text-color-secondary:#474747;
+  --text-color-neutral:#181818;
+
+  --color-neutral:#ffffff;
+
+}
+.start {
+  font-size: var(--fs-xxxl);
+}
