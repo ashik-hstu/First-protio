@@ -84,5 +84,133 @@ body {
     align-items: center;
     margin-top: 20px;
   }
+  main{
+    background-color: var(--color-neutral);
+    width: 80vw;
+    margin: 100px auto;
+  }
+  .intro-container{
+    background-color: var(--bg-primary);
+    padding: 50px  180px;
+    text-align: center;
+    
+    
+  }
+  .intro-section{
+    
+  background-color: var(--color-neutral);
+  
+  }
+  h3{
+    color: var(--text-color-neutral);
+   font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-xxxl);
+    text-align: center;
+  }
+  .about{
+    font-size: var(--fs-lg);
+  }
+.address-section{
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+
+h4{
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semi-bold);
+  color:var(--text-color-secondary);
+}
+.address h4{
+  margin-top: 0px;
+}
+.work{
+  text-align: center;
+  padding: 50px 80px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* width: 15vw; */
+  background-color: var(--color-neutral);
+  padding: 20px;
+  border:2px solid var(--color-neutral);
+  box-shadow: 2px 2px 4px gray;
+  border-radius: 4px;
+}
+.skill{
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semi-bold);
+  color: var(--text-color-neutral);
+}
+.skill-container{
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+.resume-container{
+  margin-top: 70px;
+}
+.resume{
+  display: flex;
+  gap: 15px;
+  padding: 20px 20px;
+}
+.line{
+  
+  border: 1px solid gainsboro;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  
+}
+.affiliation{
+  margin-bottom: 10px;
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semi-bold);
+}
+.my-edu h4{
+  font-size: 30px;
+  color: var(--text-color-secondary);
+  font-weight: var(--fw-semi-bold);
+}
+.my-edu h5{
+ color: var(--text-color-secondary);
+ font-size: var(--fs-xxl);
+ font-weight: var(--fw-semi-bold);
+}
+.cv{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+footer{
+  background-color:  var(--bg-primary);
+}
+.footer-container{
+  width: 80vw;
+  margin:  auto;
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  padding: 20px;
   
   
+  
+  
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 30px;
+}
+.foot-head{
+  margin-top: 50px;
+  font-size: var(--fs-xxxl);
+  color: #181818;
+  font-weight: var(--fw-semi-bold);
+}
+
